@@ -915,6 +915,7 @@ body {
 }
 .events .content .info .time {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
 }
@@ -1308,6 +1309,7 @@ body {
   }
   .discount .have > * {
     width: 500px;
+    max-width: 100%;
     margin-inline: auto;
   }
 }
@@ -1525,3 +1527,4 @@ body {
   }
 }
 /* end animation */
+
